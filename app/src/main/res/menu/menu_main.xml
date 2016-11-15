@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_previous"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_chevron_left_black_24dp"
+        android:title="Previous"/>
+    <item
+        android:id="@+id/action_next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_chevron_right_black_24dp"
+        android:title="Next"/>
+    <item
+        android:id="@+id/action_new"
+        android:orderInCategory="300"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_open_in_new_black_24dp"
+        android:title="New"/>
+
+
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+</menu>

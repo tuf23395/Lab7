@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="edu.temple.webbrowser.FragmentURL">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:text="http://www.google.com"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="left|top"
+        android:maxLines="1" />
+
+    <Button
+        android:layout_width="52dp"
+        android:layout_height="40dp"
+        android:text="GO"
+        android:id="@+id/button"
+        android:textSize="12dp"
+        android:layout_gravity="right|top"
+        android:height="40dp" />
+
+</FrameLayout>
